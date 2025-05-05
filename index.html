@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My n8n Agent Interface</title>
+    <link rel="stylesheet" href="style.css"> <!-- ลิงก์ไปยังไฟล์ CSS -->
+</head>
+
+<body>
+
+    <h1>My AI Agent</h1>
+
+    <div class="container">
+        <!-- ส่วน Input -->
+        <div class="input-section">
+            <label for="userName">ชื่อของคุณ (User Name):</label>
+            <input type="text" id="userName" placeholder="ใส่ชื่อของคุณ...">
+
+            <label for="userPrompt">คำสั่งของคุณ (Your Prompt):</label>
+            <textarea id="userPrompt" rows="4" placeholder="ใส่คำสั่งที่ต้องการให้ AI ทำ..."></textarea>
+
+            <button id="submitBtn">ส่งคำสั่ง (Submit)</button>
+        </div>
+
+        <!-- ส่วน Output -->
+        <div class="output-section">
+            <h2>ผลลัพธ์ (Result):</h2>
+            <div id="loading" style="display: none;">กำลังประมวลผล...</div>
+            <pre id="resultArea">ผลลัพธ์จะแสดงที่นี่...</pre> <!-- ใช้ <pre> เพื่อรักษาการขึ้นบรรทัดใหม่ -->
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- ลิงก์ไปยังไฟล์ JavaScript -->
+</body>
+
+</html>
