@@ -1,6 +1,6 @@
 // --- Configuration ---
 // !!! สำคัญ: แก้ไข URL นี้เป็น Production URL ของ Webhook n8n ของคุณ !!!
-const N8N_WEBHOOK_URL = 'https://bb1d-184-22-101-28.ngrok-free.app/webhook/testweb';
+const N8N_WEBHOOK_URL = 'https://hook.eu2.make.com/58onokonsmovr0lid8ubrjjpinosijdx';
 // ---------------------
 
 // ดึง Element ต่างๆ จากหน้า HTML
