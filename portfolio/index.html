@@ -6,81 +6,19 @@
   <meta name="theme-color" content="#f5f5f0">
   <meta name="description" content="Aussacha Dintawong — AI Engineer and Data Scientist building intelligent systems through AI, Machine Learning and Data Engineering.">
   <title>Portfolio · Aussacha Dintawong</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css?v=paper-2">
+  <link rel="stylesheet" href="/style.css?v=home-2">
+  <link rel="stylesheet" href="style.css?v=folio-3">
 </head>
-<body>
-  <header class="site-header">
-    <a class="home-link" href="/"><span aria-hidden="true">←</span> Back to Home</a>
-    <nav aria-label="Main navigation">
-      <a href="#about">About</a>
-      <a href="#focus">Focus</a>
-      <a href="#work">Selected work</a>
-      <a class="nav-link" href="https://github.com/Aussachaa" target="_blank" rel="noreferrer">GitHub ↗</a>
-    </nav>
-  </header>
-
-  <main id="top">
-    <section class="hero">
-      <div class="eyebrow"><span class="status-dot"></span> AI ENGINEERING · DATA SCIENCE</div>
-      <h1>Building intelligent<br><span>systems that matter.</span></h1>
-      <p class="hero-copy">Building intelligent systems through AI, Machine Learning &amp; Data Engineering.</p>
-      <div class="hero-actions">
-        <a class="button button-dark" href="#work">Explore selected work <span>↘</span></a>
-        <a class="text-link" href="https://github.com/Aussachaa" target="_blank" rel="noreferrer">View GitHub profile ↗</a>
-      </div>
-      <div class="hero-mark" aria-hidden="true"><span>AI</span><i></i><span>ML</span><i></i><span>DATA</span></div>
-    </section>
-
-    <section class="section about" id="about">
-      <div class="section-label">01 / ABOUT</div>
-      <div class="section-content">
-        <h2>Curious by nature.<br>Practical by design.</h2>
-        <p>I’m Aussacha Dintawong, an AI Engineer and Data Scientist focused on turning ideas and data into useful, dependable applications. I enjoy working across the stack — from data workflows and machine learning to LLM-powered tools and automation.</p>
-      </div>
-    </section>
-
-    <section class="section focus" id="focus">
-      <div class="section-label">02 / FOCUS AREAS</div>
-      <div class="focus-grid">
-        <article class="focus-card"><span class="card-index">01</span><h3>Applied AI</h3><p>LLM applications, RAG systems, AI agents and practical integrations.</p></article>
-        <article class="focus-card"><span class="card-index">02</span><h3>Machine Learning</h3><p>Predictive modeling, customer analytics, experimentation and evaluation.</p></article>
-        <article class="focus-card"><span class="card-index">03</span><h3>Data Engineering</h3><p>Data pipelines, SQL, reliable workflows and analytics foundations.</p></article>
-        <article class="focus-card"><span class="card-index">04</span><h3>Automation</h3><p>Connecting tools and services to reduce repetitive work.</p></article>
-      </div>
-    </section>
-
-    <section class="section work" id="work">
-      <div class="section-label">03 / SELECTED WORK</div>
-      <div class="section-content">
-        <h2>Building across<br>the AI ecosystem.</h2>
-        <p class="work-intro">A selection of problem spaces explored through hands-on projects. Some work is maintained in private repositories, so implementation details are not published here.</p>
-        <div class="work-list">
-          <article class="work-item"><div><span class="work-type">MACHINE LEARNING · PRIVATE</span><h3>Customer Analytics</h3><p>Segmentation and machine-learning workflows for understanding customer behavior.</p></div><span class="work-number">01</span></article>
-          <article class="work-item"><div><span class="work-type">LLM · RAG · PRIVATE</span><h3>Intelligent Applications</h3><p>Retrieval-based assistants and applied LLM workflows designed around real tasks.</p></div><span class="work-number">02</span></article>
-          <article class="work-item"><div><span class="work-type">INFRASTRUCTURE · PRIVATE</span><h3>AI Development Environment</h3><p>Containerized services and local infrastructure for experimenting with AI systems.</p></div><span class="work-number">03</span></article>
-          <article class="work-item"><div><span class="work-type">AUTOMATION · PRIVATE</span><h3>Workflow Automation</h3><p>Connected workflows that bring APIs, data and AI-assisted processes together.</p></div><span class="work-number">04</span></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section stack">
-      <div class="section-label">04 / TOOLKIT</div>
-      <div class="section-content">
-        <h2>Tools I work with.</h2>
-        <div class="tags"><span>Python</span><span>SQL</span><span>Machine Learning</span><span>LangChain</span><span>n8n</span><span>Docker</span><span>PostgreSQL</span><span>Data Analytics</span><span>Git</span></div>
-      </div>
-    </section>
-
-    <section class="contact">
-      <div class="eyebrow">LET’S CONNECT</div>
-      <h2>Always building.<br><span>Always learning.</span></h2>
-      <a class="button button-light" href="https://github.com/Aussachaa" target="_blank" rel="noreferrer">Find me on GitHub ↗</a>
-    </section>
+<body id="top">
+  <header><a class="back" href="/">← Back to Home</a><nav aria-label="Portfolio navigation"><a href="#work">Work</a><a href="#about">About</a></nav></header>
+  <main>
+    <section class="hero" aria-labelledby="name"><p class="label">Portfolio</p><h1 id="name">Aussacha Dintawong</h1><p class="role">AI Engineer &amp; Data Scientist</p><p class="summary">I work on customer analytics, retrieval-based assistants, and the data pipelines behind them.</p></section>
+    <section id="work"><h2>Selected work</h2><p class="note">These projects are in private repositories.</p><div class="projects"><article><p class="category">MACHINE LEARNING</p><h3>Customer segmentation</h3><p>Segmentation and machine-learning workflows for understanding customer behavior.</p></article>
+<article><p class="category">LLM · RAG</p><h3>Retrieval-based assistants</h3><p>Retrieval-based assistants and applied LLM workflows designed around real tasks.</p></article>
+<article><p class="category">INFRASTRUCTURE</p><h3>Local AI development environment</h3><p>Containerized services and local infrastructure for experimenting with AI systems.</p></article>
+<article><p class="category">AUTOMATION</p><h3>API workflow automation</h3><p>Connected workflows that bring APIs, data and AI-assisted processes together.</p></article></div></section>
+    <section id="about" class="details"><div><h2>About</h2><p>I enjoy working across the stack, from preparing data and evaluating models to connecting tools that cut down on repetitive work.</p></div><div><h2>Toolkit</h2><ul><li>Python</li><li>SQL</li><li>Machine Learning</li><li>LangChain</li><li>n8n</li><li>Docker</li><li>PostgreSQL</li><li>Data Analytics</li><li>Git</li></ul></div></section>
   </main>
-
-  <footer><span>© <span id="year">2026</span></span><span>BUILDING · LEARNING · SHARING</span><a href="#top">BACK TO TOP ↑</a></footer>
+  <footer><a href="https://github.com/Aussachaa">GitHub ↗</a><a href="#top">Back to top ↑</a></footer>
 </body>
 </html>
